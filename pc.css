@@ -145,12 +145,12 @@
 }
 
 .img {
-    width: 60px;
-    height: 60px;
+    width: 80px;
+    height: 80px;
 }
 
-.avatar:hover {
-   padding: auto;
+.img:hover {
+    padding: auto;
 }
 
 .text-center {
@@ -160,7 +160,6 @@
 .text-right {
     text-align: right;
 }
-
 
 .table>tbody>tr:hover {
     cursor: pointer;

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/pcsymbol.jpn.jpg" />
+    <link rel="stylesheet" href="pc.css">
+    <title>PC Store</title>
+</head>
+
+<body>
+    <div class="logout" >
+    <button type="submit"  id="logout" onclick="logout()">Đăng xuất</button>
+</div>
+
+    <div>
+
+        <h1 style="font-size: 80px; background-color: rgb(19, 102, 141); color: white;">PC STORE</h1>
+    </div>
+
+    <div class="container">
+        <div class="left-side">
+            <div class="add-area">
+                <div class="form-group">
+                    <label for="name">Tên sản phẩm</label>
+                    <input type="text" class="form-control" id="name">
+                </div>
+                <div class="form-group">
+                    <label for="dateimport">Ngày nhập</label>
+                    <input type="date" class="form-control" id="dateimport">
+                </div>
+                <div class="form-group">
+                    <label for="img">Hình ảnh</label>
+                    <input type="url" class="form-control" id="img">
+                </div>
+                <div class="form-group">
+                    <label for="amout">Số lượng</label>
+                    <input type="number" class="form-control" id="amout">
+                </div>
+                <div class="form-group">
+                    <label for="price">Giá</label>
+                    <input type="number" class="form-control" id="price">
+                </div>
+                <div class="form-group">
+                    <button class="btn btn-primary" id="submit" onclick="submititem()" style="display:none;">SUBMIT</button>
+                    <input type="hidden" id="iditem" value="0">
+                    <button class="btn btn-warning" id="cancel" onclick="cancel()" style="display:none;">CANCEL</button>
+                    <button class="btn btn-warning" id="add" onclick="additem()">ADD</button>
+                    <button class="btn btn-warning" id="reset" onclick="resetform()">RESET</button>
+                </div>
+                <div class="form-group">
+                    <div>
+                        <label for="search">Tìm kiếm</label>
+                        <input type="text" class="form-control" id="search" placeholder="Type here to search"
+                            oninput="search(this)">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <table class="table">
+                <thead class="thead-dark">
+                    <tr>
+                        <th>Mã sản phẩm</th>
+                        <th>Tên sản phẩm</th>
+                        <th>Ngày nhập</th>
+                        <th>Hình ảnh</th>
+                        <th>Số lượng</th>
+                        <th>Giá</th>
+                        <th>Hành động</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+    </div>
+    <script src="pcstore.js"></script>
+</body>
+
+</html>

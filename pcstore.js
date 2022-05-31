@@ -17,10 +17,10 @@ class Helper {
     }
 }
 let pcgears = [];
-const pcgear_data="pcgear_data";
-function init(){
-    if(localStorage.getItem(pcgear_data)=== null){
-        pcgears=[
+const pcgear_data = "pcgear_data";
+function init() {
+    if (localStorage.getItem(pcgear_data) === null) {
+        pcgears = [
             new pcgear(
                 1,
                 "Asus ProArt PA278CV",
@@ -95,11 +95,11 @@ function init(){
             ),
         ];
         localStorage.setItem(pcgear_data, JSON.stringify(pcgears));
-    }else{
-        pcgears=JSON.parse(localStorage.getItem(pcgear_data));
+    } else {
+        pcgears = JSON.parse(localStorage.getItem(pcgear_data));
     }
 }
-    
+
 let id = 0;
 function renderPCgear(data) {
     let htmls = data.map(function (pcgear) {
@@ -237,7 +237,8 @@ function clearIPForm() {
 
 
 function logout() {
-    window.location.replace("index.html");    
+    alert("Bạn có chắc chắn muốn thoát!!!")
+    window.location.replace("index.html");
 }
 function main() {
     init();

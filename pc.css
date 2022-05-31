@@ -183,11 +183,15 @@ table>tbody {
 }
 
 .logout {
-    text-align: left;
     background-color: rgb(19, 102, 141);
     border: none;
-    outline: none;
-    padding: 10px 20px;
+    display: flex;
+    padding: 10px 30px;
+    cursor: pointer;
+}
+.logout:hover{
+    text-decoration: underline;
+    color: white;
     cursor: pointer;
 }
 

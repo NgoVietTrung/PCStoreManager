@@ -237,7 +237,7 @@ function clearIPForm() {
 
 
 function logout() {
-    location.href="https://ngoviettrung.github.io/PCStoreManager/";    
+    window.location.replace("index.html");    
 }
 function main() {
     init();

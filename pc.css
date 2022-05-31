@@ -159,16 +159,13 @@ table>tbody{
     background-color: rgb(255, 255, 255);
 }
 
-/* .d-none{
-    display: none;
-} */
-#login{
-    border: none;
-    outline: none;
-    padding: 10px 20px;
-    cursor: pointer;
-    border-radius: 5px;
-}
+    #login{
+        border: none;
+        outline: none;
+        padding: 10px 20px;
+        cursor: pointer;
+        border-radius: 5px;
+    }
 .logout{
     text-align: left;
     background-color: rgb(19, 102, 141);

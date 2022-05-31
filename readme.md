@@ -11,4 +11,4 @@
 2.https://colorhunt.co/
 ## Kết quả đạt được
 1. Link mã nguồn:https://github.com/NgoVietTrung/PCStoreManager
-2. Link sản phẩm:
+2. Link sản phẩm:https://ngoviettrung.github.io/PCStoreManager/

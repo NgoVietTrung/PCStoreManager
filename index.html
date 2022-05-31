@@ -25,7 +25,7 @@
     function login() {
         let user = document.querySelector("#username").value;
         let pw = document.querySelector("#password").value;
-        if (user.trim("Admin") && pw.trim("Admin")) {
+        if (user=="Admin" && user=="Admin") {
             alert("Hello Master");
             location.href="http://127.0.0.1:5500/mangerPCstore.html";
         } else {

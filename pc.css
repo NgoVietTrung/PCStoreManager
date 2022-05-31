@@ -179,6 +179,9 @@ table>tbody{
     border: none;
     color: white;
 }
-/* .userpass{
-    
-} */
+#icon{
+    width: 30px;
+}
+#icon:hover{
+    cursor: pointer;
+}

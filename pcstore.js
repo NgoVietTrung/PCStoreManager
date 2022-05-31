@@ -114,8 +114,8 @@ function renderPCgear(data) {
         <td class="text-center">${pcgear.amout}</td>
         <td class="text-right">${Helper.formatCurrency(pcgear.price)}</td>
         <td class="text-center-button">
-            <button class="btn btn-success btn-sm"  id="edit" onclick='edit(${pcgear.id})'>Edit</button>
-            <button class="btn btn-danger btn-sm"  id="remove" onclick='remove(${pcgear.id})'>Delete</button>
+            <button class="btn btn-success btn-sm"  id="edit" onclick='edit(${pcgear.id})'><i id="icon" class="fa-solid fa-gear"></i></button>
+            <button class="btn btn-danger btn-sm"  id="remove" onclick='remove(${pcgear.id})'><i id="icon" class="fa-solid fa-trash-can"></i></button>
         </td>
     </tr>
     </div>

@@ -1,8 +1,39 @@
-*{
-    padding: 0;
-    margin: 0;
-    font-family: sans-serif;
-    box-sizing: border-box;
-    font-size: 30px;
-    text-align: center;
+body{
+    background-color: #225893;
+    font-family: sans-serifs;
 }
+.login{
+    width: 300px;
+    height: 280px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+    margin: 0 auto;
+}
+.login>h2{
+    display: inline-block;
+}
+.login>input{
+    width: 200px;
+    height:40px;
+    border-radius: 10px;
+    border: 1px solid black;
+    padding-left: 20px;
+    margin-bottom: 10px; 
+    margin-top: 5px;
+}
+.login>button{
+    width: 150px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    background-color: #167bff;
+    color: white;
+}
+.login>label{
+    display: inline-block;
+    float: left;
+    padding-left: 40px;
+    margin: 0px;
+}       

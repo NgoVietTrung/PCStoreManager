@@ -6,28 +6,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
-    <link rel="stylesheet" href="pc.css">
+    <link rel="stylesheet" href="login.css">
 </head>
 
 <body>
     <div>
-        <h1 style="text-align: center;font-size:80px; background-color: rgb(19, 102, 141); color: white;">PC STORE</h1>
-    </div>
-    <div class="userpass" style="text-align: left; background-color:rgb(19, 102, 141) ; color: white;">
-        <input type="text" id="username">
-        <input type="password" id="password">
-        <button type="submit" onclick="login()" style="background-color:rgb(19,102,141)  ; color: white;"
-            id="login">Đăng
-            nhập</button>
+        <div class="heading">
+            <h1>Đăng nhập</h1>
+        </div>
+        <div>
+            <input type="text" id="username">
+        </div>
+        <div>
+            <input type="password" id="password">
+        </div>
+        <div>
+            <button type="submit" onclick="login()" id="login">Đăng nhập</button>
+        </div>
     </div>
 </body>
 <script>
     function login() {
         let user = document.querySelector("#username").value;
         let pw = document.querySelector("#password").value;
-        if (user=="Admin" && user=="Admin") {
+        if (user == "Admin" && user == "Admin") {
             alert("Hello Master");
-            location.href="http://127.0.0.1:5500/mangerPCstore.html";
+            location.href = "http://127.0.0.1:5500/PCStoreManager/mangerPCstore.html";
         } else {
             alert("Wrong user name or password");
         }
